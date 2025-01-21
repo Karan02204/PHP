@@ -31,4 +31,16 @@ echo "The value of 1: ".($a++)."\n";
 echo "The value of 2: ".(++$a)."\n";
 echo "The value of 3: ".($b--)."\n";
 echo "The value of 4: ".(--$b)."\n";
+
+//ternary operator
+
+echo $status = (empty($user))? "Nothing" : "$user";
+echo "\n";
+$user = "Karan";
+echo $status = (empty($user))? "Nothing" : "$user";
+echo "\n";
+
+//null coallaesce
+
+echo $status = $user??"Nothing";
 ?>
