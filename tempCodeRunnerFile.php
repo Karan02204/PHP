@@ -1,6 +1,7 @@
 <?php
-$i=1;
-// while($i<5){
-//     echo $i."\n";
-//     $i++;
+$t=date("H");
+// if($t<"2"){
+//     echo "Have a good day";
+// } else{
+//     echo "Have a bad day";
 // }
