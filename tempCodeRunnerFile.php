@@ -1,3 +1,4 @@
 <?php
-$number = 5;
-// echo multiply($number);
+foreach($arr as $value){
+//     echo $value." ";
+// }
